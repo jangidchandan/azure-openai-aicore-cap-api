@@ -14,8 +14,8 @@ metadata:
     ext.ai.sap.com/islm_executable_type: "inference"
     ext.ai.sap.com/islm_inference_type: "online"
 spec:
-  #imagePullSecrets: # (optional if using a private docker hub repository)
-  # - name: docker-credentials # your docker registry secret
+  imagePullSecrets: # (optional if using a private docker hub repository)
+  - name: docker-credentials # your docker registry secret
   inputs:
     parameters:
       - name: OPENAI_API_BASE

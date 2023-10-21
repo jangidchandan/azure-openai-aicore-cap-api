@@ -172,5 +172,5 @@ resources/git_setup.json
 resources/env.json
 
 # IDEs
-# .vscode
-# .idea
+.vscode
+.idea
